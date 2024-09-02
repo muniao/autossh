@@ -1,9 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2024-09-02T08:48:47.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.6.3" etag="M7VoArx2WbJ8-iANUQEY" type="github">
+<mxfile host="app.diagrams.net" modified="2024-09-02T09:11:27.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="nj4QGIg3r6dniafjHdc8" version="24.6.3" type="github">
   <diagram name="第 1 页" id="HYNXa2WrYSJxqDYhkPuP">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iuDVoJfNUs7qu8ca9vcl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iuDVoJfNUs7qu8ca9vcl-4" target="iuDVoJfNUs7qu8ca9vcl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuDVoJfNUs7qu8ca9vcl-4" value="患者指标数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iuDVoJfNUs7qu8ca9vcl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iuDVoJfNUs7qu8ca9vcl-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuDVoJfNUs7qu8ca9vcl-5" value="java项目代码" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="265" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iuDVoJfNUs7qu8ca9vcl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iuDVoJfNUs7qu8ca9vcl-7" target="iuDVoJfNUs7qu8ca9vcl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuDVoJfNUs7qu8ca9vcl-7" value="QLExpress规则脚本" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iuDVoJfNUs7qu8ca9vcl-10" value="输出最终结果" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iuDVoJfNUs7qu8ca9vcl-11" value="1. 患者指标数据，是通过从经办系统中采集、清洗后规则引擎中要使用到的相关指标记录。&lt;div&gt;2. QLExpress规则脚本，是按照QLExpress语法规则来判断指标，纯文本，可读性强。&lt;/div&gt;&lt;div&gt;3. java项目代码中获取患者指标数据后，将指标数据注入到QLExpress上下文中，并执行规则脚本，之后将规则脚本执行结果保存到数据库中去。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="15" y="70" width="290" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
